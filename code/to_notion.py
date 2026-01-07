@@ -7,7 +7,6 @@ load_dotenv()
 
 NOTION_TOKEN = os.getenv("NOTION_API_KEY")
 DATABASE_ID = os.getenv("DATABASE_ID_KEY")
-#client = genai.Client(api_key="AIzaSyCiDDJg-b8HFgasv33JKnmxH9skHjSwG5Y")
 client = genai.Client(api_key=os.getenv("gemini_api_key"))
 
 HEADERS = {
