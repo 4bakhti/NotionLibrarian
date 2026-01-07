@@ -50,7 +50,20 @@ graph TD
 * [Gemini API Key](https://aistudio.google.com/)
 * [Notion Integration Token](https://www.notion.so/my-integrations)
 
-### 2. Installation
+### 2. ✅ Important (Notion Template Required)
+
+Before using this project, you **must** create your Notion database using the provided template:
+
+**Notion template (duplicate it first):**  
+https://olive-windflower-821.notion.site/2d06bb3c158781f09512f9a1ab4e4c34?v=2d06bb3c158781edaced000c8010d97c
+
+**Steps:**
+1. Open the link and **Duplicate** the template into your own Notion workspace.
+2. Use the duplicated database as your personal library database.
+3. Share the duplicated database with your Notion integration (so the bot can write into it).
+4. Copy your database ID and put it into `NOTION_DATABASE_ID` in your `.env`.
+
+### 3. Installation
 Clone the repository and install the dependencies:
 
 ```bash
@@ -59,7 +72,7 @@ cd NotionLibrarian
 pip install -r requirements.txt
 ```
 
-### 3. Environment Setup
+### 4. Environment Setup
 Create a `.env` file in the same directory as your scripts:
 
 1. Copy the contents of `.env.example` into a new file named `.env`.
